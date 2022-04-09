@@ -145,7 +145,8 @@ const EN = {
         ]
       },
 
-      roadmap:[
+      roadmap:{
+        quantum:
         {
           id:"quantum",
           title:"IBM Quantum",
@@ -270,7 +271,7 @@ const EN = {
           ]
          
         }
-      ]
+      }
 
     }
 }
