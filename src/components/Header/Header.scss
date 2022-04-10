@@ -14,10 +14,27 @@
     display: flex;
     flex-direction: row;
     align-items:center;
+
     .logo {
         height:17px;
         width: auto;
         margin-left:32px;
+    }
+
+    .divider {
+        padding:0;
+        margin:0;
+        margin-left: 20px;
+        margin-right:20px;
+        height: 17px;
+        border-right: 1px solid #ADA8A8;
+    }
+
+    .title{
+        color:black;
+        a {
+            color:black;
+        }
     }
 }
 
