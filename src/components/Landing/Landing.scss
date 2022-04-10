@@ -13,6 +13,17 @@
     display: flex;
     flex-direction: column;
     margin-left:32px;
+
+    .content-left{
+        width:320px;
+
+        .title{
+            font-size: 3.375rem;
+            line-height: 4rem; 
+        }
+    }
+
+
 }
 
 

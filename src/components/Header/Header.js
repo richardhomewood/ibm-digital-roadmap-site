@@ -23,7 +23,7 @@ function Header() {
         <div className={`section header`}>
              <img src={IBMLogoBlack} alt="IBM Logo" className='logo' />
              <div className='divider'></div>
-             <HeaderName href="#" prefix="" className='title'>{t('header.title')}</HeaderName>
+             <HeaderName href="../" prefix="" className='title'>{t('header.title')}</HeaderName>
         </div>
     )
 }

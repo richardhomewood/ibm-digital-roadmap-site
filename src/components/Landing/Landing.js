@@ -20,15 +20,16 @@ function Landing() {
 
     return (
         <div className={`section landing`}>
-            <h1>Landing Page</h1>
-            <ButtonSet>
-            <Button kind="primary">
-                Primary button
-            </Button>
-            <Button kind="secondary">
-                Secondary button
-            </Button>
-            </ButtonSet>
+            <div className='content-left'>
+                <h1 className='title'>{t('landing.title')}<br /><span className={`blue`}>{t('landing.subtitle')}</span></h1>
+                <p>{t('landing.content')}</p>
+                <ButtonSet>
+                <Button kind="primary">
+                    Primary button
+                </Button>
+                </ButtonSet>
+            </div>
+          
         </div>
     )
 }
