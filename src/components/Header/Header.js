@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 import { Button } from  '@carbon/ibm-security';
 import { ButtonSet } from '@carbon/react';
+import IBMLogoBlack from '../../assets/images/ibm-logo-black.svg'
 
 function Header() {
 
@@ -20,7 +21,7 @@ function Header() {
 
     return (
         <div className={`section header`}>
-            <h6>Header</h6>
+             <img src={IBMLogoBlack} alt="IBM Logo" className='logo' />
         </div>
     )
 }
