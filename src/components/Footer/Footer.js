@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 import { Button } from  '@carbon/ibm-security';
 import { ButtonSet } from '@carbon/react';
+import IBMLogoWhite from '../../assets/images/ibm-logo-white.svg'
 
 function Footer() {
 
@@ -20,15 +21,7 @@ function Footer() {
 
     return (
         <div className={`section footer`}>
-            <h6>Footer</h6>
-            <ButtonSet>
-            <Button kind="secondary">
-                Secondary button
-            </Button>
-            <Button kind="primary">
-                Primary button
-            </Button>
-            </ButtonSet>
+            <img src={IBMLogoWhite} alt="IBM Logo" className='logo' />
         </div>
     )
 }
