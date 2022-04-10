@@ -1,5 +1,4 @@
-import './App.css';
-
+import './App.scss';
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,6 +7,8 @@ import {
 } from "react-router-dom";
 
 import { useTranslation } from 'react-i18next';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 import Landing from './components/Landing/Landing';
 import Technology from './components/Technology/Technology';
 
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <Router>
+      <Header />
       {/* // nav insdie header compoennt will need something like This
       <nav>
           <ul>
@@ -42,13 +44,7 @@ function App() {
          <Route path="/:" element={<Landing />} />
          <Route path="/" element={<Landing />} />
       </Routes>
-      <div className="App">
-      <header className="App-header">
-        <p>
-        {t('header.title')}
-        </p>
-      </header>
-    </div>
+      <Footer />
     </Router>
     
   );

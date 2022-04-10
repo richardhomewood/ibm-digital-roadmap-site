@@ -6,10 +6,14 @@ import React, { useEffect, useRef, useState } from 'react'
 // // import title from '../../assets/images/landing-title.png'
 // import uefaLogo from '../../assets/images/uefa-logo.svg'
 
+
+
 import gsap from "gsap";
 // import eventBus from "../EventBus";
 
 import { useTranslation } from 'react-i18next';
+import { Button } from  '@carbon/ibm-security';
+import { ButtonSet } from '@carbon/react';
 // import API from '../API/API';
 
 function Landing() {
@@ -44,6 +48,14 @@ function Landing() {
     return (
         <div className={`section landing`}>
             <h1>Landing Page</h1>
+            <ButtonSet>
+            <Button kind="secondary">
+                Secondary button
+            </Button>
+            <Button kind="primary">
+                Primary button
+            </Button>
+            </ButtonSet>
             {/* <Lottie
                 className='wipe'
                 loop ={false}
