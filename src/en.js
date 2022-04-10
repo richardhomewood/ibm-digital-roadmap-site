@@ -2,6 +2,9 @@ const EN = {
     translation: {
       header:{
         title:"Technology Atlas",
+        technologies:[
+          "semiconductors", "ai", "quantum","hybrid-cloud", "security", "systems"
+        ]
       },
 
       landing:{

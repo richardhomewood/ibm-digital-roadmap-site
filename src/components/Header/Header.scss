@@ -36,6 +36,42 @@
             color:black;
         }
     }
+
+    .right{
+        position: relative;
+        margin-left: auto;
+        margin-right:12px;
+        .navigation{
+            width:14rem;
+
+            #navigation{
+                .bx--list-box__menu{
+                    background-color: white;
+                    color:black;
+                    max-height:50vh;
+                }
+                .bx--list-box__menu-item{
+                    color:black;
+                    
+                }
+                .bx--list-box__menu-item__option{
+                    color:black;
+                    border-top:1px solid #CCCCCD;
+                }
+                .bx--list-box__menu-item:first-of-type .bx--list-box__menu-item__option {
+                    border-top-color: transparent;
+                }
+                span{
+                    color:black;
+                }
+                background-color: white;
+                border-bottom:none;
+                svg{
+                    fill: black;
+                }
+            }
+        }
+    }
 }
 
 
