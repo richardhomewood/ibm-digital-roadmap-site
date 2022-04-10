@@ -5,9 +5,12 @@ import { useTranslation } from 'react-i18next';
 import { Button, Dropdown, HeaderContainer, HeaderName } from  '@carbon/ibm-security';
 import { ButtonSet, Heading } from '@carbon/react';
 import IBMLogoBlack from '../../assets/images/ibm-logo-black.svg'
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
 
+    
+    const navigate = useNavigate();
 
     const { t } = useTranslation();
 
@@ -18,6 +21,11 @@ function Header() {
     },[]);
 
     const items = t("header.technologies", {returnObjects: true});
+
+    const navigationChanged=(e)=>{
+        console.log(e.selectedItem.value)
+        navigate('/'+e.selectedItem.value);
+    }
 
     return (
         <div className={`section header`}>
@@ -33,6 +41,7 @@ function Header() {
                     // titleText="Dropdown title"
                     className="navigation"
                     light={true}
+                    onChange={navigationChanged}
                 />
              </div>
         </div>

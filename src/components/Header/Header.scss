@@ -45,6 +45,9 @@
             width:14rem;
 
             #navigation{
+                span{
+                    color:black;
+                }
                 .bx--list-box__menu{
                     background-color: white;
                     color:black;
@@ -61,9 +64,10 @@
                 .bx--list-box__menu-item:first-of-type .bx--list-box__menu-item__option {
                     border-top-color: transparent;
                 }
-                span{
-                    color:black;
+                .bx--list-box__menu-item--active .bx--list-box__menu-item__option,  .bx--list-box__menu-item--highlighted .bx--list-box__menu-item__option, .bx--list-box__menu-item--active:hover .bx--list-box__menu-item__option {
+                    color:white;
                 }
+                
                 background-color: white;
                 border-bottom:none;
                 svg{

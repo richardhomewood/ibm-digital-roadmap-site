@@ -3,7 +3,13 @@ const EN = {
       header:{
         title:"Technology Atlas",
         technologies:[
-          "semiconductors", "ai", "quantum","hybrid-cloud", "security", "systems"
+          {value:"", label:"Home"},
+          {value:"semiconductors", label:"Semiconductors"},
+          {value:"ai", label:"AI"},
+          {value:"quantum", label:"Quantum"},
+          {value:"hybrid-cloud", label:"Hybrid Cloud"},
+          {value:"security", label:"Security"},
+          {value:"systems", label:"Systems"}
         ]
       },
 
