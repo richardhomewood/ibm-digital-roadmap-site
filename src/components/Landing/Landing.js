@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 import { Button } from  '@carbon/ibm-security';
 import { ButtonSet } from '@carbon/react';
+import { Trans } from 'react-i18next';
 
 function Landing() {
 
@@ -22,7 +23,7 @@ function Landing() {
         <div className={`section landing`}>
             <div className='content-left'>
                 <h1 className='title'>{t('landing.title')}<br /><span className={`blue`}>{t('landing.subtitle')}</span></h1>
-                <p>{t('landing.content')}</p>
+                <p><Trans i18nKey="landing.content" /></p>
                 <ButtonSet>
                 <Button kind="primary">
                     Primary button

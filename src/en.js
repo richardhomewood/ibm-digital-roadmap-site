@@ -7,7 +7,7 @@ const EN = {
       landing:{
         title:"IBM",
         subtitle:"Technology Roadmap",
-        content:"Productive type theme layouts for long paragraphs with more than four lines. Productive type theme layouts."
+        content:"Productive type theme layouts for long paragraphs with <strong>more than four lines</strong>. Productive type theme layouts."
 
       },
 
