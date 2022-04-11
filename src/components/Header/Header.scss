@@ -45,8 +45,8 @@
             width:14rem;
 
             #navigation{
-                span{
-                    color:black;
+                .bx--list-box__label{
+                    color:transparent;
                 }
                 .bx--list-box__menu{
                     background-color: white;

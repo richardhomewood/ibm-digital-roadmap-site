@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from  '@carbon/ibm-security';
 import { ButtonSet } from '@carbon/react';
 import { Trans } from 'react-i18next';
+import Atlas from '../Atlas/Atlas';
 
 function Landing() {
 
@@ -26,11 +27,11 @@ function Landing() {
                 <p><Trans i18nKey="landing.content" /></p>
                 <ButtonSet>
                 <Button kind="primary">
-                    Primary button
+                    Explore Technology Atlas
                 </Button>
                 </ButtonSet>
             </div>
-          
+            <Atlas />
         </div>
     )
 }
