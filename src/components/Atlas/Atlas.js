@@ -40,6 +40,7 @@ function Atlas() {
         // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
         tl.play();
 
+        document.querySelector("#year-1-text").innerHTML = "2025"
         document.querySelector("#dot-1-6").addEventListener("click",dotClicked);
         document.querySelector("#dot-1-6").addEventListener("mouseover",dotOver);
         document.querySelector("#dot-1-6").addEventListener("mouseout",dotOut);

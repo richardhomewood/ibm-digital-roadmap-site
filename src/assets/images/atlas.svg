@@ -21,6 +21,10 @@
       <rect id="dot-1-6-detect" x="182.01" y="250.8" width="14.84" height="14.84" transform="translate(-117.54 349.49) rotate(-70.29)" opacity="0"/>
       <rect id="dot-1-6-dot" x="187.57" y="256.37" width="3.71" height="3.71" transform="translate(-117.54 349.49) rotate(-70.29)"/>
     </g>
+    <g id="year-1">
+      <rect x="267.3" y="171.44" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-1-text" transform="translate(282.23 191.23)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2022</text>
+    </g>
   </g>
   <g id="circle-2">
     <path id="circle-2-path" d="M477.14,300.8c0,97.63-79.24,176.77-177,176.77s-177-79.14-177-176.77S202.39,124,300.14,124,477.14,203.17,477.14,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
@@ -30,6 +34,10 @@
     <rect id="dot-2-3" x="361.87" y="463.43" width="3.62" height="3.71" transform="translate(-137.21 152.45) rotate(-20)"/>
     <rect id="dot-2-2" x="464.05" y="359.19" width="3.71" height="3.71" transform="translate(-32.71 675.37) rotate(-70)"/>
     <rect id="dot-2-1" x="463.84" y="237.48" width="3.71" height="3.62" transform="translate(-53.76 173.71) rotate(-20)"/>
+    <g id="year-2">
+      <rect x="267.3" y="113.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-2-text" transform="translate(282.23 133.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2023</text>
+    </g>
   </g>
   <g id="circle-3">
     <rect id="dot-3-6" x="78.83" y="217.42" width="3.71" height="3.71" transform="translate(-152.96 221.3) rotate(-70.29)"/>
@@ -39,5 +47,9 @@
     <rect id="dot-3-2" x="518.82" y="379.12" width="3.71" height="3.71" transform="translate(-15.41 739.95) rotate(-70)"/>
     <rect id="dot-3-1" x="518.67" y="217.53" width="3.71" height="3.62" transform="translate(-43.63 191.26) rotate(-20)"/>
     <path id="circle-3-path" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <g id="year-3">
+      <rect x="267.3" y="55.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-3-text" transform="translate(282.23 75.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2024</text>
+    </g>
   </g>
 </svg>
