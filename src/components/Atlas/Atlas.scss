@@ -1,13 +1,21 @@
 .section.atlas{
-    background-color: grey;
-    width:50vw;
-    max-width:650px;
-    height: 50vw;
-    max-height:650px;
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
+
+    position: relative;
+    width:100%;
+    height: 100%;
+    // background-color: red;
+
+    #Layer_1{
+        transform-box: fill-box;
+    }
+
+    .atlas-container{
+        width: 100%;
+        max-width:calc(100vh - 96px);
+        height: 0;
+        padding-bottom: calc(min(100%,100vh - 96px));
+        position: relative;
+    }
 }
 
 
