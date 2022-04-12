@@ -19,20 +19,6 @@ function App() {
   return (
     <Router>
       <Header />
-      {/* // nav insdie header compoennt will need something like This
-      <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav> */}
       <Routes>
          <Route path="/ai" element={<Technology technology={"ai"} />} />
          <Route path="/quantum" element={<Technology technology={"quantum"} />} />
@@ -40,7 +26,6 @@ function App() {
          <Route path="/hybrid-cloud" element={<Technology technology={"hybrid-cloud"} />} />
          <Route path="/security" element={<Technology technology={"security"} />} />
          <Route path="/systems" element={<Technology technology={"systems"} />} />
-
          <Route path="/:" element={<Landing />} />
          <Route path="/" element={<Landing />} />
       </Routes>

@@ -1,34 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-  <g id="Layer_1" data-name="Layer 1">
+  <g id="background">
     <rect width="600" height="600" fill="#fff"/>
-    <path class="cls-1 circle-1" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <path class="cls-1 circle-2" d="M477.14,300.8c0,97.63-79.24,176.77-177,176.77s-177-79.14-177-176.77S202.39,124,300.14,124,477.14,203.17,477.14,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <line x1="344.44" y1="411.57" x2="383.92" y2="520.03" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="361.87" y="463.43" width="3.62" height="3.71" transform="translate(-137.21 152.45) rotate(-20)"/>
-    <rect x="381.82" y="518.26" width="3.62" height="3.71" transform="translate(-154.75 162.58) rotate(-20)"/>
-    <line x1="411.87" y1="341.83" x2="520.91" y2="380.93" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="464.05" y="359.19" width="3.71" height="3.71" transform="translate(-32.71 675.37) rotate(-70)"/>
-    <rect x="518.82" y="379.12" width="3.71" height="3.71" transform="translate(-15.41 739.95) rotate(-70)"/>
-    <line x1="80.45" y1="219.15" x2="189.75" y2="258.35" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="78.83" y="217.42" width="3.71" height="3.71" transform="translate(-152.96 221.3) rotate(-70.29)"/>
-    <rect x="132.7" y="236.72" width="3.71" height="3.71" transform="translate(-135.41 284.81) rotate(-70.29)"/>
-    <line x1="79.98" y1="381.76" x2="188.42" y2="341.78" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="78.26" y="379.62" width="3.71" height="3.62" transform="translate(-126.99 51.26) rotate(-20.24)"/>
-    <rect x="132.02" y="359.81" width="3.71" height="3.62" transform="translate(-116.82 68.63) rotate(-20.24)"/>
-    <line x1="411.37" y1="259.16" x2="519.97" y2="219.63" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="463.84" y="237.48" width="3.71" height="3.62" transform="translate(-53.76 173.71) rotate(-20)"/>
-    <rect x="518.67" y="217.53" width="3.71" height="3.62" transform="translate(-43.63 191.26) rotate(-20)"/>
-    <line x1="188.34" y1="506.79" x2="245.68" y2="406.66" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <rect x="186.43" y="505.07" width="3.71" height="3.71" transform="translate(-345.28 418.99) rotate(-60.26)"/>
-    <rect x="214.81" y="455.38" width="3.71" height="3.71" transform="translate(-287.83 418.59) rotate(-60.26)"/>
   </g>
-  <g class="cls-1 circle-3" id="circle-1">
-    <path d="M419.15,300.8a119,119,0,1,1-119-118.86A118.94,118.94,0,0,1,419.15,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <rect class="dot" x="410.28" y="339.62" width="3.71" height="3.71" transform="translate(-49.7 611.96) rotate(-70)"/>
-    <rect class="dot" x="243.72" y="404.77" width="3.71" height="3.71" transform="translate(-229.31 418.18) rotate(-60.26)"/>
-    <rect class="dot" x="410.01" y="257.08" width="3.71" height="3.62" transform="translate(-63.71 156.48) rotate(-20)"/>
-    <rect class="dot" x="186.76" y="339.63" width="3.71" height="3.62" transform="translate(-106.46 86.32) rotate(-20.24)"/>
-    <rect class="dot" x="187.57" y="256.37" width="3.71" height="3.71" transform="translate(-117.54 349.49) rotate(-70.29)"/>
-    <rect class="dot" x="342.28" y="409.6" width="3.62" height="3.71" transform="translate(-119.98 142.5) rotate(-20)"/>
+  <g id="lines">
+    <line id="line-6" x1="80.45" y1="219.15" x2="189.75" y2="258.35" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-5" x1="79.98" y1="381.76" x2="188.42" y2="341.78" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-4" x1="188.34" y1="506.79" x2="245.68" y2="406.66" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-3" x1="344.44" y1="411.57" x2="383.92" y2="520.03" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-2" x1="411.87" y1="341.83" x2="520.91" y2="380.93" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-1" x1="411.37" y1="259.16" x2="519.97" y2="219.63" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+  </g>
+  <g id="circle-1">
+    <path id="circle-1-path" d="M419.15,300.8a119,119,0,1,1-119-118.86A118.94,118.94,0,0,1,419.15,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <rect id="dot-1-5" x="186.76" y="339.63" width="3.71" height="3.62" transform="translate(-106.46 86.32) rotate(-20.24)"/>
+    <rect id="dot-1-4" x="243.72" y="404.77" width="3.71" height="3.71" transform="translate(-229.31 418.18) rotate(-60.26)"/>
+    <rect id="dot-1-3" x="342.28" y="409.6" width="3.62" height="3.71" transform="translate(-119.98 142.5) rotate(-20)"/>
+    <rect id="dot-1-2" x="410.28" y="339.62" width="3.71" height="3.71" transform="translate(-49.7 611.96) rotate(-70)"/>
+    <rect id="dot-1-1" x="410.01" y="257.08" width="3.71" height="3.62" transform="translate(-63.71 156.48) rotate(-20)"/>
+    <g id="dot-1-6">
+      <rect id="dot-1-6-detect" x="182.01" y="250.8" width="14.84" height="14.84" transform="translate(-117.54 349.49) rotate(-70.29)" opacity="0"/>
+      <rect id="dot-1-6-dot" x="187.57" y="256.37" width="3.71" height="3.71" transform="translate(-117.54 349.49) rotate(-70.29)"/>
+    </g>
+  </g>
+  <g id="circle-2">
+    <path id="circle-2-path" d="M477.14,300.8c0,97.63-79.24,176.77-177,176.77s-177-79.14-177-176.77S202.39,124,300.14,124,477.14,203.17,477.14,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <rect id="dot-2-6" x="132.7" y="236.72" width="3.71" height="3.71" transform="translate(-135.41 284.81) rotate(-70.29)"/>
+    <rect id="dot-2-5" x="132.02" y="359.81" width="3.71" height="3.62" transform="translate(-116.82 68.63) rotate(-20.24)"/>
+    <rect id="dot-2-4" x="214.81" y="455.38" width="3.71" height="3.71" transform="translate(-287.83 418.59) rotate(-60.26)"/>
+    <rect id="dot-2-3" x="361.87" y="463.43" width="3.62" height="3.71" transform="translate(-137.21 152.45) rotate(-20)"/>
+    <rect id="dot-2-2" x="464.05" y="359.19" width="3.71" height="3.71" transform="translate(-32.71 675.37) rotate(-70)"/>
+    <rect id="dot-2-1" x="463.84" y="237.48" width="3.71" height="3.62" transform="translate(-53.76 173.71) rotate(-20)"/>
+  </g>
+  <g id="circle-3">
+    <rect id="dot-3-6" x="78.83" y="217.42" width="3.71" height="3.71" transform="translate(-152.96 221.3) rotate(-70.29)"/>
+    <rect id="dot-3-5" x="78.26" y="379.62" width="3.71" height="3.62" transform="translate(-126.99 51.26) rotate(-20.24)"/>
+    <rect id="dot-3-4" x="186.43" y="505.07" width="3.71" height="3.71" transform="translate(-345.28 418.99) rotate(-60.26)"/>
+    <rect id="dot-3-3" x="381.82" y="518.26" width="3.62" height="3.71" transform="translate(-154.75 162.58) rotate(-20)"/>
+    <rect id="dot-3-2" x="518.82" y="379.12" width="3.71" height="3.71" transform="translate(-15.41 739.95) rotate(-70)"/>
+    <rect id="dot-3-1" x="518.67" y="217.53" width="3.71" height="3.62" transform="translate(-43.63 191.26) rotate(-20)"/>
+    <path id="circle-3-path" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
   </g>
 </svg>
