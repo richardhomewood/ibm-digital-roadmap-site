@@ -1,55 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680">
   <g id="background">
-    <rect width="600" height="600" fill="#fff"/>
+    <rect width="680" height="680" fill="#fff"/>
   </g>
   <g id="lines">
-    <line id="line-6" x1="80.45" y1="219.15" x2="189.75" y2="258.35" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <line id="line-5" x1="79.98" y1="381.76" x2="188.42" y2="341.78" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <line id="line-4" x1="188.34" y1="506.79" x2="245.68" y2="406.66" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <line id="line-3" x1="344.44" y1="411.57" x2="383.92" y2="520.03" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <line id="line-2" x1="411.87" y1="341.83" x2="520.91" y2="380.93" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
-    <line id="line-1" x1="411.37" y1="259.16" x2="519.97" y2="219.63" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-6" x1="120.45" y1="259.15" x2="229.75" y2="298.35" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-5" x1="119.98" y1="421.76" x2="228.42" y2="381.78" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-4" x1="228.34" y1="546.79" x2="285.68" y2="446.66" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-3" x1="384.44" y1="451.57" x2="423.92" y2="560.03" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-2" x1="451.87" y1="381.83" x2="560.91" y2="420.93" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
+    <line id="line-1" x1="451.37" y1="299.16" x2="559.97" y2="259.63" fill="none" stroke="#e0e0e0" stroke-width="0.78"/>
   </g>
   <g id="circle-1">
-    <path id="circle-1-path" d="M419.15,300.8a119,119,0,1,1-119-118.86A118.94,118.94,0,0,1,419.15,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <rect id="dot-1-5" x="186.76" y="339.63" width="3.71" height="3.62" transform="translate(-106.46 86.32) rotate(-20.24)"/>
-    <rect id="dot-1-4" x="243.72" y="404.77" width="3.71" height="3.71" transform="translate(-229.31 418.18) rotate(-60.26)"/>
-    <rect id="dot-1-3" x="342.28" y="409.6" width="3.62" height="3.71" transform="translate(-119.98 142.5) rotate(-20)"/>
-    <rect id="dot-1-2" x="410.28" y="339.62" width="3.71" height="3.71" transform="translate(-49.7 611.96) rotate(-70)"/>
-    <rect id="dot-1-1" x="410.01" y="257.08" width="3.71" height="3.62" transform="translate(-63.71 156.48) rotate(-20)"/>
+    <path id="circle-1-path" d="M459.15,340.8a119,119,0,1,1-119-118.86A118.94,118.94,0,0,1,459.15,340.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <rect id="dot-1-5" x="226.76" y="379.63" width="3.71" height="3.62" transform="translate(-117.83 102.63) rotate(-20.24)"/>
+    <rect id="dot-1-4" x="283.72" y="444.77" width="3.71" height="3.71" transform="translate(-243.88 473.08) rotate(-60.26)"/>
+    <rect id="dot-1-3" x="382.28" y="449.6" width="3.62" height="3.71" transform="translate(-131.24 158.59) rotate(-20)"/>
+    <rect id="dot-1-2" x="450.28" y="379.62" width="3.71" height="3.71" transform="translate(-60.97 675.86) rotate(-70)"/>
+    <rect id="dot-1-1" x="450.01" y="297.08" width="3.71" height="3.62" transform="translate(-74.97 172.57) rotate(-20)"/>
     <g id="dot-1-6">
-      <rect id="dot-1-6-detect" x="182.01" y="250.8" width="14.84" height="14.84" transform="translate(-117.54 349.49) rotate(-70.29)" opacity="0"/>
-      <rect id="dot-1-6-dot" x="187.57" y="256.37" width="3.71" height="3.71" transform="translate(-117.54 349.49) rotate(-70.29)"/>
+      <rect id="dot-1-6-detect" x="222.01" y="290.8" width="14.84" height="14.84" transform="translate(-128.69 413.66) rotate(-70.29)" opacity="0"/>
+      <rect id="dot-1-6-dot" x="227.57" y="296.37" width="3.71" height="3.71" transform="translate(-128.69 413.66) rotate(-70.29)"/>
     </g>
     <g id="year-1">
-      <rect x="267.3" y="171.44" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-1-text" transform="translate(282.23 191.23)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2022</text>
+      <rect x="307.3" y="211.44" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-1-text" transform="translate(322.23 231.23)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2022</text>
     </g>
   </g>
   <g id="circle-2">
-    <path id="circle-2-path" d="M477.14,300.8c0,97.63-79.24,176.77-177,176.77s-177-79.14-177-176.77S202.39,124,300.14,124,477.14,203.17,477.14,300.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <rect id="dot-2-6" x="132.7" y="236.72" width="3.71" height="3.71" transform="translate(-135.41 284.81) rotate(-70.29)"/>
-    <rect id="dot-2-5" x="132.02" y="359.81" width="3.71" height="3.62" transform="translate(-116.82 68.63) rotate(-20.24)"/>
-    <rect id="dot-2-4" x="214.81" y="455.38" width="3.71" height="3.71" transform="translate(-287.83 418.59) rotate(-60.26)"/>
-    <rect id="dot-2-3" x="361.87" y="463.43" width="3.62" height="3.71" transform="translate(-137.21 152.45) rotate(-20)"/>
-    <rect id="dot-2-2" x="464.05" y="359.19" width="3.71" height="3.71" transform="translate(-32.71 675.37) rotate(-70)"/>
-    <rect id="dot-2-1" x="463.84" y="237.48" width="3.71" height="3.62" transform="translate(-53.76 173.71) rotate(-20)"/>
+    <path id="circle-2-path" d="M517.14,340.8c0,97.63-79.24,176.77-177,176.77s-177-79.14-177-176.77S242.39,164,340.14,164,517.14,243.17,517.14,340.8Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <rect id="dot-2-6" x="172.7" y="276.72" width="3.71" height="3.71" transform="translate(-146.56 348.98) rotate(-70.29)"/>
+    <rect id="dot-2-5" x="172.02" y="399.81" width="3.71" height="3.62" transform="translate(-128.19 84.94) rotate(-20.24)"/>
+    <rect id="dot-2-4" x="254.81" y="495.38" width="3.71" height="3.71" transform="translate(-302.4 473.48) rotate(-60.26)"/>
+    <rect id="dot-2-3" x="401.87" y="503.43" width="3.62" height="3.71" transform="translate(-148.47 168.54) rotate(-20)"/>
+    <rect id="dot-2-2" x="504.05" y="399.19" width="3.71" height="3.71" transform="translate(-43.98 739.27) rotate(-70)"/>
+    <rect id="dot-2-1" x="503.84" y="277.48" width="3.71" height="3.62" transform="translate(-65.03 189.8) rotate(-20)"/>
     <g id="year-2">
-      <rect x="267.3" y="113.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-2-text" transform="translate(282.23 133.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2023</text>
+      <rect x="307.3" y="153.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-2-text" transform="translate(322.23 173.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2023</text>
     </g>
   </g>
   <g id="circle-3">
-    <path id="circle-3-path" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
-    <rect id="dot-3-6" x="78.83" y="217.42" width="3.71" height="3.71" transform="translate(-152.96 221.3) rotate(-70.29)"/>
-    <rect id="dot-3-5" x="78.26" y="379.62" width="3.71" height="3.62" transform="translate(-126.99 51.26) rotate(-20.24)"/>
-    <rect id="dot-3-4" x="186.43" y="505.07" width="3.71" height="3.71" transform="translate(-345.28 418.99) rotate(-60.26)"/>
-    <rect id="dot-3-3" x="381.82" y="518.26" width="3.62" height="3.71" transform="translate(-154.75 162.58) rotate(-20)"/>
-    <rect id="dot-3-2" x="518.82" y="379.12" width="3.71" height="3.71" transform="translate(-15.41 739.95) rotate(-70)"/>
-    <rect id="dot-3-1" x="518.67" y="217.53" width="3.71" height="3.62" transform="translate(-43.63 191.26) rotate(-20)"/>
+    <path id="circle-3-path" d="M574.79,340.92C574.79,470.2,469.85,575,340.4,575S106,470.2,106,340.92,211,106.83,340.4,106.83,574.79,211.64,574.79,340.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
+    <rect id="dot-3-6" x="118.83" y="257.42" width="3.71" height="3.71" transform="translate(-164.1 285.47) rotate(-70.29)"/>
+    <rect id="dot-3-5" x="118.26" y="419.62" width="3.71" height="3.62" transform="translate(-138.36 67.57) rotate(-20.24)"/>
+    <rect id="dot-3-4" x="226.43" y="545.07" width="3.71" height="3.71" transform="translate(-359.85 473.88) rotate(-60.26)"/>
+    <rect id="dot-3-3" x="421.82" y="558.26" width="3.62" height="3.71" transform="translate(-166.02 178.67) rotate(-20)"/>
+    <rect id="dot-3-2" x="558.82" y="419.12" width="3.71" height="3.71" transform="translate(-26.68 803.86) rotate(-70)"/>
+    <rect id="dot-3-1" x="558.67" y="257.53" width="3.71" height="3.62" transform="translate(-54.89 207.35) rotate(-20)"/>
     <g id="year-3">
-      <rect x="267.3" y="55.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-3-text" transform="translate(282.23 75.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2024</text>
+      <rect x="307.3" y="95.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-3-text" transform="translate(322.23 115.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2024</text>
     </g>
+  </g>
+  <g id="labels">
+    <text id="label-6" transform="translate(58.75 261.09)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">S<tspan x="7.36" y="0" letter-spacing="0.03em">y</tspan><tspan x="13.68" y="0" letter-spacing="0.03em">s</tspan><tspan x="19.82" y="0" letter-spacing="0.03em">t</tspan><tspan x="24.37" y="0">ems</tspan></text>
+    <text id="label-5" transform="translate(57.17 427.19)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">Quantum</text>
+    <text id="label-4" transform="translate(174.13 564.02)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">Security</text>
+    <text id="label-3" transform="translate(428.13 584.02)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">Hybrid Cloud</text>
+    <text id="label-2" transform="translate(572.11 429.09)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">AI</text>
+    <text id="label-1" transform="translate(575 261.12)" font-size="12" font-family="IBMPlexSans, IBM Plex Sans" letter-spacing="0.03em">Semi<tspan x="28.57" y="0" letter-spacing="0.03em">c</tspan><tspan x="34.92" y="0" letter-spacing="0.03em">onduc</tspan><tspan x="70.19" y="0" letter-spacing="0.03em">t</tspan><tspan x="74.74" y="0" letter-spacing="0.03em">ors</tspan></text>
   </g>
 </svg>
