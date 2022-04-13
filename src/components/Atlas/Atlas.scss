@@ -3,6 +3,10 @@
     position: relative;
     width:100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     // background-color: red;
 
     #Layer_1{
@@ -18,7 +22,7 @@
         visibility: hidden;
         opacity: 0;
 
-        #dot-1-6{
+        [id^="dot"]{
             cursor: pointer;
         }
     }

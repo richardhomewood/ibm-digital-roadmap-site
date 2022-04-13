@@ -3,13 +3,13 @@ const EN = {
       header:{
         title:"Technology Atlas",
         technologies:[
-          {value:"", label:"Home"},
-          {value:"semiconductors", label:"Semiconductors"},
-          {value:"ai", label:"AI"},
-          {value:"quantum", label:"Quantum"},
-          {value:"hybrid-cloud", label:"Hybrid Cloud"},
-          {value:"security", label:"Security"},
-          {value:"systems", label:"Systems"}
+          {value:"", label:"Home", color:""},
+          {value:"semiconductors", label:"Semiconductors", color:"#221122"},
+          {value:"ai", label:"AI", color:"#B797F8"},
+          {value:"quantum", label:"Quantum", color:"#0F62FE"},
+          {value:"hybrid-cloud", label:"Hybrid Cloud", color:"#08BDBA"},
+          {value:"security", label:"Security", color:"#8A3FFC"},
+          {value:"systems", label:"Systems", color:"#33B1FF" }
         ]
       },
 
@@ -23,9 +23,9 @@ const EN = {
       atlas:{
         button:"Explore Roadmap",
         years:[
-          {title:"2024", id:"2024"},
-          {title:"2023", id:"2023"},
           {title:"2022", id:"2022"},
+          {title:"2023", id:"2023"},
+          {title:"2024", id:"2024"},
         ],
         technologies:[
           {

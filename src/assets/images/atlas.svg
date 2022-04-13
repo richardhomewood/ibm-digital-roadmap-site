@@ -40,13 +40,13 @@
     </g>
   </g>
   <g id="circle-3">
+    <path id="circle-3-path" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
     <rect id="dot-3-6" x="78.83" y="217.42" width="3.71" height="3.71" transform="translate(-152.96 221.3) rotate(-70.29)"/>
     <rect id="dot-3-5" x="78.26" y="379.62" width="3.71" height="3.62" transform="translate(-126.99 51.26) rotate(-20.24)"/>
     <rect id="dot-3-4" x="186.43" y="505.07" width="3.71" height="3.71" transform="translate(-345.28 418.99) rotate(-60.26)"/>
     <rect id="dot-3-3" x="381.82" y="518.26" width="3.62" height="3.71" transform="translate(-154.75 162.58) rotate(-20)"/>
     <rect id="dot-3-2" x="518.82" y="379.12" width="3.71" height="3.71" transform="translate(-15.41 739.95) rotate(-70)"/>
     <rect id="dot-3-1" x="518.67" y="217.53" width="3.71" height="3.62" transform="translate(-43.63 191.26) rotate(-20)"/>
-    <path id="circle-3-path" d="M534.79,300.92C534.79,430.2,429.85,535,300.4,535S66,430.2,66,300.92,171,66.83,300.4,66.83,534.79,171.64,534.79,300.92Z" fill="none" stroke="#bcbcbc" stroke-width="0.78"/>
     <g id="year-3">
       <rect x="267.3" y="55.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
       <text id="year-3-text" transform="translate(282.23 75.5)" font-size="16" font-family="MyriadPro-Regular, Myriad Pro">2024</text>
