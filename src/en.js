@@ -155,6 +155,37 @@ const EN = {
       },
 
       roadmap:{
+        semiconductors:
+        {
+          id:"semiconductors",
+          title:"IBM Semiconductors",
+          sections:[
+          ]
+        },
+        
+        ai:
+        {
+          id:"ai",
+          title:"IBM Artificial Intelligence",
+          sections:[
+          ]
+        },
+
+        "hybrid-cloud":
+        {
+          id:"hybrid-cloud",
+          title:"IBM Hybrid Cloud",
+          sections:[
+          ]
+        },
+        security:
+        {
+          id:"security",
+          title:"IBM Security",
+          sections:[
+          ]
+        },
+
         quantum:
         {
           id:"quantum",
@@ -277,9 +308,16 @@ const EN = {
               }
              
             }
+          ]       
+        },
+        
+        systems:
+        {
+          id:"systems",
+          title:"IBM Systems",
+          sections:[
           ]
-         
-        }
+        },
       }
 
     }

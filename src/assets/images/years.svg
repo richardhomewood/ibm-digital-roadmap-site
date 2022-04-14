@@ -1,0 +1,11 @@
+<svg id="nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 65.18 107.84">
+  <rect width="65.18" height="107.84" fill="#fff"/>
+  <line id="line-2" x1="2.5" y1="97.89" x2="2.5" y2="57.89" fill="none" stroke="#ada8a8"/>
+  <line id="line-1" x1="2.5" y1="56.89" x2="2.5" y2="14.89" fill="none" stroke="#ada8a8"/>
+  <rect id="year-dot-3" y="95.89" width="5" height="5" fill="#ada8a8"/>
+  <rect id="year-dot-2" y="54.89" width="5" height="5" fill="#ada8a8"/>
+  <rect id="year-dot-1" y="10.89" width="5" height="5" fill="#ada8a8"/>
+  <text id="year-3" transform="translate(8.71 103.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2024</text>
+  <text id="year-2" transform="translate(8.71 62.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2023</text>
+  <text id="year-1" transform="translate(8.71 18.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2022</text>
+</svg>
