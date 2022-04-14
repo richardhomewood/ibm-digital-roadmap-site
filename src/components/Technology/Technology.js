@@ -5,14 +5,13 @@ import gsap from "gsap";
 
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
+import TechnologyNavigation from '../TechnologyNavigation/TechnologyNavigation';
 // import API from '../API/API';
 
 function Technology(props) {
 
     // const logosTitle = useRef();
-    // const[titlePlay, setTitlePlay] = useState(false);
-    // const[wipePlay, setWipePlay] = useState(false);
-
+   
     const { t } = useTranslation();
 
     useEffect(() => {
@@ -25,10 +24,10 @@ function Technology(props) {
     // TODO: If data node exists then build page
     return (
         <div className={`section technology`}>
+            <TechnologyNavigation technology={props.technology} />
             {i18next.exists('roadmap.'+props.technology+".title") &&
             <div className='content'>
-                <h1>Technology Page: {props.technology}</h1>
-                <h2>{t('roadmap.'+props.technology+".title")}</h2>
+                <h1>{t('roadmap.'+props.technology+".title")}</h1>
             </div>
             }
             {!i18next.exists('roadmap.'+props.technology+".title") &&

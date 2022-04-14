@@ -6,9 +6,9 @@ const EN = {
           {value:"", label:"Home", color:""},
           {value:"semiconductors", label:"Semiconductors", color:"#221122"},
           {value:"ai", label:"AI", color:"#B797F8"},
-          {value:"quantum", label:"Quantum", color:"#0F62FE"},
           {value:"hybrid-cloud", label:"Hybrid Cloud", color:"#08BDBA"},
           {value:"security", label:"Security", color:"#8A3FFC"},
+          {value:"quantum", label:"Quantum", color:"#0F62FE"},
           {value:"systems", label:"Systems", color:"#33B1FF" }
         ]
       },

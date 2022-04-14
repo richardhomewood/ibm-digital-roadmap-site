@@ -1,18 +1,28 @@
 .section.technology{
     width:100%;
     height: 100%;
-    font-family: 'Montreal';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 42px;
-    position: relative;
-    z-index:10;
+    min-height: 95vh;
     top:0;
     left:0;
-    color:white;
-    background: black;
+    color:black;
+    background: white;
     visibility: visible;
     opacity: 1;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+    .content {
+        margin-left:177px;
+        background-color: transparent;
+        width:100%;
+        margin-right:172px;
+        max-width:848px;
+
+        h1 {
+            font-size:54px;
+        }
+    }
+
+
+    
 }
