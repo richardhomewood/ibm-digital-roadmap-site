@@ -16,7 +16,7 @@
         background-color: transparent;
         width:100%;
         margin-right:172px;
-        max-width:848px;
+        max-width:1200px;
         display: flex;
         flex-direction: column;
         height: auto;
@@ -74,18 +74,25 @@
                 }
 
                 .content-columns{
-                    margin-top:32px;
+                    margin-top:16px;
                     display: flex;
                     flex-direction: row;
                     gap:32px;
                     h6{
                         margin:0;
+                        font-size:.75rem;
                     }
                     .content-column{
                         display: flex;
                         flex-direction: column;
-                        font-size:12px;
+                        font-size:.75rem;
+                        line-height: 1rem;
                         width:33%;
+
+                        p,a {
+                            font-size:.75rem;
+                            line-height: 1rem;
+                        }
                     }
                 }
 
