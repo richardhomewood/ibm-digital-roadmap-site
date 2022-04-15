@@ -35,12 +35,37 @@ function Technology(props) {
                         console.log(s)
                         // TODO: If more than 1 media need a map loop to iterate them
                         return(
-                            <div className='technology-section' id={"section-"+(i+1)}>
+                            <div key={i} className='technology-section' id={"section-"+(i+1)}>
                                 <div className="media">
                                     <button className="media-link" alt="media"  data-url={"./assets/images/"+s.media[0].url} ><img src={"./assets/images/"+s.media[0].image} alt=""/></button>
                                 </div>
                                 <div className='content-right'>
                                     <h2>{s.title}</h2>
+                                    { 
+                                        s.content.headerBlocks.map((hb,i)=>{
+                                            return(
+                                                <p key={i} className='header-block'>{hb}</p>
+                                            )
+                                        })
+                                    }
+                                    <div className='content-columns'>
+                                    { 
+                                       s.content.columns.map((c,i)=>{
+                                        return(
+                                            <div key={i} className='content-column'>
+                                                <h6>{c.title}</h6>
+                                                { 
+                                                    c.blocks.map((cb,i)=>{
+                                                        return(
+                                                            <p key={i} className='block'>{cb}</p>
+                                                        )
+                                                    })
+                                                }
+                                            </div>
+                                        )
+                                    })
+                                    }
+                                    </div>
                                 </div>
                             </div>  
                         )

@@ -205,7 +205,7 @@ const EN = {
                   "We will roll out our second-generation Nanosheet CMOS technology, which will feature innovative transistor, interconnect, and power distribution network elements.",
                   "We also plan to start 3D chiplet processing in Albany."
                 ],
-                colums:[
+                columns:[
                   { 
                     title:"Importance",
                     blocks:[
@@ -226,7 +226,6 @@ const EN = {
                       "This will all happen at our Semiconductor R&D facility in Albany, where we work alongside an ecosystem of partners including Intel, Samsung, Applied Materials, Tokyo Electron, and Lam Research."
                     ]
                   },
-
                 ]
               }
              
@@ -245,7 +244,7 @@ const EN = {
                   "We will grow our semiconductor ecosystem partnership in Albany and build early capability qualification of semiconductor technology.",
                   "We will also develop and demonstrate the feasibility of our novel interconnect “Top Via” integration scheme, which is different from the current Cu damascene integration process."
                 ],
-                colums:[
+                columns:[
                   { 
                     title:"Importance",
                     blocks:[
@@ -285,7 +284,7 @@ const EN = {
                   "We will continue to grow Albany’s semiconductor prototyping capability with leading-edge technologies, while expanding our ecosystem to include electronic design automation and chip design partners.",
                   "We will demonstrate the feasibility of revolutionary logic technology beyond Nanosheet, as well as 3D chiplet technology for next-generation AI accelerator Sentient 2.0+"
                 ],
-                colums:[
+                columns:[
                   { 
                     title:"Importance",
                     blocks:[
