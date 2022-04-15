@@ -20,6 +20,8 @@ function Technology(props) {
         tl.play();
     },[]);
 
+    
+
     // TODO: Rework all this below into compoennts
     // TODO: If data node exists then build page
     return (
@@ -28,6 +30,22 @@ function Technology(props) {
             {i18next.exists('roadmap.'+props.technology+".title") &&
             <div className='content'>
                 <h1>{t('roadmap.'+props.technology+".title")}</h1>
+                {
+                    t("roadmap."+props.technology + ".sections",{returnObjects: true}).map((s,i)=>{
+                        console.log(s)
+                        // TODO: If more than 1 media need a map loop to iterate them
+                        return(
+                            <div className='technology-section' id={"section-"+(i+1)}>
+                                <div className="media">
+                                    <button className="media-link" alt="media"  data-url={"./assets/images/"+s.media[0].url} ><img src={"./assets/images/"+s.media[0].image} alt=""/></button>
+                                </div>
+                                <div className='content-right'>
+                                    <h2>{s.title}</h2>
+                                </div>
+                            </div>  
+                        )
+                    })
+                 }
             </div>
             }
             {!i18next.exists('roadmap.'+props.technology+".title") &&

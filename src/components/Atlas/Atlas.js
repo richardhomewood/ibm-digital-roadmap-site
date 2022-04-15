@@ -107,16 +107,12 @@ function Atlas() {
             el.addEventListener("mouseover",labelOver);
             el.addEventListener("mouseout",labelOut);
             // any global dot anaimtion for start
-
             if(t===1){ tl.set(el,{transformOrigin:"0% 50%"})}
             if(t===2){ tl.set(el,{transformOrigin:"0% 50%"})}
             if(t===3){ tl.set(el,{transformOrigin:"0% 50%"})}
             if(t===4){ tl.set(el,{transformOrigin:"100% 50%"})}
             if(t===5){ tl.set(el,{transformOrigin:"100% 50%"})}
-            if(t===6){ tl.set(el,{transformOrigin:"100% 50%"})}
-            
-            
-            
+            if(t===6){ tl.set(el,{transformOrigin:"100% 50%"})} 
         }
     
 

@@ -5,7 +5,7 @@
   <rect id="year-dot-3" y="95.89" width="5" height="5" fill="#ada8a8"/>
   <rect id="year-dot-2" y="54.89" width="5" height="5" fill="#ada8a8"/>
   <rect id="year-dot-1" y="10.89" width="5" height="5" fill="#ada8a8"/>
-  <text id="year-3" transform="translate(8.71 103.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2024</text>
-  <text id="year-2" transform="translate(8.71 62.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2023</text>
-  <text id="year-1" transform="translate(8.71 18.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2022</text>
+  <a href="#section-3"><text id="year-3" transform="translate(8.71 103.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2024</text></a>
+  <a href="#section-2"><text id="year-2" transform="translate(8.71 62.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2023</text></a>
+  <a href="#section-1"><text id="year-1" transform="translate(8.71 18.26)" font-size="14" fill="#ada8a8" font-family="IBMPlexSans, IBM Plex Sans">2022</text></a>
 </svg>

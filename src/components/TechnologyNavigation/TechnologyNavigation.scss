@@ -13,8 +13,13 @@
 
     display: flex;
     flex-direction: column;
-    margin-top:30px;
+    margin-top:78px;
+    position: fixed;
 
+
+    [id^="year"]{
+        cursor: pointer;
+    }
 
     .nav-home-icon{
         width:38px;

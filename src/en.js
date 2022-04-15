@@ -196,7 +196,8 @@ const EN = {
               title:"2022 Strategic Goal",
               media:[
                 { 
-                  url:"https://google.com/some-asset.mp4"
+                  url:"https://google.com/some-asset.mp4",
+                  image:"media-1.png"
                 }
               ],
               content:{
@@ -235,7 +236,8 @@ const EN = {
               title:"2023 Strategic Goal",
               media:[
                 { 
-                  url:"https://google.com/some-asset.mp4"
+                  url:"https://google.com/some-asset.mp4",
+                  image:"media-1.png"
                 }
               ],
               content:{
@@ -274,7 +276,8 @@ const EN = {
               title:"2024 Strategic Goal",
               media:[
                 { 
-                  url:"https://google.com/some-asset.mp4"
+                  url:"https://google.com/some-asset.mp4",
+                  image:"media-1.png"
                 }
               ],
               content:{
