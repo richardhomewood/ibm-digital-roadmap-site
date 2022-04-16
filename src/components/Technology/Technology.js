@@ -22,6 +22,8 @@ function Technology(props) {
     const [mediaPlaying,setMediaPlaying] = useState(false)
     const [mediaURL,setMediaURL] = useState(null)
 
+    const reactVideoRef = useRef();
+
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
         // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
@@ -36,6 +38,7 @@ function Technology(props) {
         // set content up
         setMediaURL(url)
         setMediaPlaying(true)
+        reactVideoRef.current.seekTo(0)
         // show modal
         setModalOpen(true);
     }
@@ -110,6 +113,7 @@ function Technology(props) {
 
             >
                 <ReactPlayer
+                    ref={reactVideoRef}
                     className="react-video-player"
                     url={mediaURL}
                     playing={mediaPlaying}
