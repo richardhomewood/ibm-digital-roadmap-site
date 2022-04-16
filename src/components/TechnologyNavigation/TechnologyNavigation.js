@@ -1,43 +1,26 @@
 import './TechnologyNavigation.scss';
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect} from 'react'
 import gsap from "gsap";
 
 import {  ReactComponent as HomeIconSVG } from '../../assets/images/nav-home-icon.svg'
 import {  ReactComponent as YearsSVG } from '../../assets/images/years.svg'
 
-import { useTranslation } from 'react-i18next';
-import i18next from 'i18next';
+// import { useTranslation } from 'react-i18next';
+// import i18next from 'i18next';
 import { useNavigate } from 'react-router-dom';
 
 function TechnologyNavigation(props) {
 
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
     const navigate = useNavigate();
 
     const labelClicked=(e)=>{
-        // const id = e.currentTarget.id
-        // const _t = id.charAt(id.length-1)
-        // const tech = t("header.technologies",{returnObjects: true})[_t].value
-        // //const color = t("header.technologies",{returnObjects: true})[_t].color
-        // console.log("over",id, tech )
-        // navigate('/'+tech);
     }
 
     const labelOver=(e)=>{
-        // const id = e.currentTarget.id
-        // const _t = id.charAt(id.length-1)
-        // const tech = t("header.technologies",{returnObjects: true})[_t].value
-        // const color = t("header.technologies",{returnObjects: true})[_t].color
-        // console.log("over",id, tech )
-
-        // // TODO Update to the color of the line based on last digit
-        // gsap.to(e.currentTarget,{scale:2, fill:color})
-
     }
 
     const labelOut=(e)=>{
-        // console.log("out", e.currentTarget.id)
-        // gsap.to(e.currentTarget,{scale:1, fill:"#000000"})
     }
 
 
@@ -60,6 +43,26 @@ function TechnologyNavigation(props) {
             highlightNav(1);
         }
 
+        // intersection observer setup
+        const observerOptions = {
+            root: null,
+            rootMargin: '48px',
+            threshold: 0.7,
+        };
+  
+        function observerCallback(entries, observer) {
+            entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                console.log(entry.target.id.charAt(entry.target.id.length-1))
+                highlightNav(parseInt(entry.target.id.charAt(entry.target.id.length-1)))
+            }
+            });
+        }
+
+        const sections = document.querySelectorAll('.technology-section');
+        const observer = new IntersectionObserver(observerCallback, observerOptions);
+        sections.forEach((sec) => observer.observe(sec));
+
     },[props]);
 
     const homeIconClicked = (e) =>{
@@ -73,17 +76,9 @@ function TechnologyNavigation(props) {
             tl.to('#year-'+i,{scale:(i===index)? 1.4: 1.0, fill:(i===index)?"#0F62FE":"#ADA8A8"},0);
             tl.to('#year-dot-'+i,{scale:(i===index)? 1.4: 1.0,fill:(i===index)?"#0F62FE":"#ADA8A8"},0);
         }
-       
-
-        // TODO: Highlight dot , scale and color
-
-        
-
         tl.play();
     }
 
-    // TODO: Rework all this below into compoennts
-    // TODO: If data node exists then build page
     return (
         <div className={`technology-navigation`}>
             <HomeIconSVG className='nav-home-icon' onClick={homeIconClicked} />
