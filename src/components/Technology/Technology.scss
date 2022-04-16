@@ -99,7 +99,15 @@
             }
         }
     }
+}
 
-
-    
+.media-player-modal {
+   
+    .bx--modal-container{
+        padding:0;
+        margin:0;
+        width:90%;
+        height: 90%;
+        background-color: transparent;
+    }
 }

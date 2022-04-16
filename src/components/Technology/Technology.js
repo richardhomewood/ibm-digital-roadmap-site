@@ -6,6 +6,10 @@ import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import TechnologyNavigation from '../TechnologyNavigation/TechnologyNavigation';
+import { Modal } from '@carbon/ibm-security';
+import ReactPlayer from 'react-player'
+
+
 // import API from '../API/API';
 
 function Technology(props) {
@@ -14,13 +18,32 @@ function Technology(props) {
    
     const { t } = useTranslation();
 
+    const [modalOpen,setModalOpen] = useState(false)
+    const [mediaPlaying,setMediaPlaying] = useState(false)
+    const [mediaURL,setMediaURL] = useState(null)
+
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
         // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
         tl.play();
     },[]);
 
-    
+    const mediaClicked = (e) =>{
+        const id = e.currentTarget.id;
+        const url = e.currentTarget.dataset.url;
+
+        console.log(id, url)
+        // set content up
+        setMediaURL(url)
+        setMediaPlaying(true)
+        // show modal
+        setModalOpen(true);
+    }
+
+    const closeMedia = () =>{
+        setModalOpen(false);
+        setMediaPlaying(true);
+    }
 
     // TODO: Rework all this below into compoennts
     // TODO: If data node exists then build page
@@ -37,7 +60,7 @@ function Technology(props) {
                         return(
                             <div key={i} className='technology-section' id={"section-"+(i+1)}>
                                 <div className="media">
-                                    <button className="media-link" alt="media"  data-url={"./assets/images/"+s.media[0].url} ><img src={"./assets/images/"+s.media[0].image} alt=""/></button>
+                                    <button id={"media-"+props.technology+"-"+(i+1)} onClick={mediaClicked} className="media-link" alt="media"  data-url={s.media[0].url} ><img src={"./assets/images/"+s.media[0].image} alt=""/></button>
                                 </div>
                                 <div className='content-right'>
                                     <h2>{s.title}</h2>
@@ -79,6 +102,23 @@ function Technology(props) {
                 <h2>Technology Data not Found</h2>
             </div>
             }
+            <Modal 
+                className='media-player-modal'
+                open={modalOpen}
+                passiveModal = {true}
+                onRequestClose={closeMedia}
+
+            >
+                <ReactPlayer
+                    className="react-video-player"
+                    url={mediaURL}
+                    playing={mediaPlaying}
+                    loop={true}
+                    width='100%'
+                    height='100%'
+                   
+                />
+            </Modal>
         </div>
     )
 }
