@@ -23,12 +23,19 @@ function Technology(props) {
     const [mediaURL,setMediaURL] = useState(null)
 
     const reactVideoRef = useRef();
+    const page = useRef();
 
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
-        // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
+        tl.call(()=>{
+           window.scrollTo({
+                top: 0,
+            });
+        },null,0)
+        tl.to(page.current,{autoAlpha:1, duration:1.5},.5);
         tl.play();
-    },[]);
+        window.page=props.technology;
+    },[props.technology]);
 
     const mediaClicked = (e) =>{
         const id = e.currentTarget.id;
@@ -51,7 +58,7 @@ function Technology(props) {
     // TODO: Rework all this below into compoennts
     // TODO: If data node exists then build page
     return (
-        <div className={`section technology`}>
+        <div ref={page} className={`section technology`}>
             <TechnologyNavigation technology={props.technology} />
             {i18next.exists('roadmap.'+props.technology+".title") &&
             <div className='content'>

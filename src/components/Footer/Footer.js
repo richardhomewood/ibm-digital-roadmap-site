@@ -10,17 +10,18 @@ function Footer() {
 
 
     const { t } = useTranslation();
+    const page= useRef();
 
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
-        // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
+        tl.to(page.current, {bottom:0, duration:1},2);
         tl.play();
     },[]);
 
 
 
     return (
-        <div className={`section footer`}>
+        <div ref={page} className={`section footer`}>
             <img src={IBMLogoWhite} alt="IBM Logo" className='logo' />
         </div>
     )

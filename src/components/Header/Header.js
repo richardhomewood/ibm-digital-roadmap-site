@@ -13,10 +13,11 @@ function Header() {
     const navigate = useNavigate();
 
     const { t } = useTranslation();
+    const page =useRef();
 
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
-        // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
+        tl.to(page.current, {top:0, duration:1},0);
         tl.play();
     },[]);
 
@@ -24,11 +25,16 @@ function Header() {
 
     const navigationChanged=(e)=>{
         console.log(e.selectedItem.value)
-        navigate('/'+e.selectedItem.value);
+        if(window.page===e.selectedItem.value) return
+        const tl = gsap.timeline({paused:true, onComplete:()=>{  navigate('/'+e.selectedItem.value);}});
+        tl.to('.section.technology',{autoAlpha:0, duration:.5},0);
+        tl.play();
+       
+       
     }
 
     return (
-        <div className={`section header`}>
+        <div ref={page} className={`section header`}>
              <img src={IBMLogoBlack} alt="IBM Logo" className='logo' />
              <div className='divider'></div>
              <HeaderName href="../" prefix="" className='title'>{t('header.title')}</HeaderName>

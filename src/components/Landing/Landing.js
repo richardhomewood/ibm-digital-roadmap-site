@@ -11,24 +11,31 @@ function Landing() {
 
 
     const { t } = useTranslation();
+    const page = useRef();
 
     useEffect(() => {
         const tl = gsap.timeline({paused:true});
-        // tl.to(['.loading-image',wallLogo.current ], {autoAlpha:0},0);
+        tl.call(()=>{
+           window.scrollTo({
+                top: 0,
+            });
+        },null,0)
+        tl.to(page.current,{autoAlpha:1, duration:1.0},.5);
         tl.play();
+        window.page='';
     },[]);
 
 
 
     return (
-        <div className={`section landing`}>
+        <div ref={page} className={`section landing`}>
             <div className='content-left'>
                 <h1 className='title'>{t('landing.title')}<br /><span className={`blue`}>{t('landing.subtitle')}</span></h1>
                 <p><Trans i18nKey="landing.content" /></p>
                 <ButtonSet>
-                <Button kind="primary">
+                {/* <Button kind="primary">
                     Explore Technology Atlas
-                </Button>
+                </Button> */}
                 </ButtonSet>
             </div>
             <Atlas />

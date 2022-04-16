@@ -66,7 +66,10 @@ function TechnologyNavigation(props) {
     },[props]);
 
     const homeIconClicked = (e) =>{
-        navigate('/');
+        const tl = gsap.timeline({paused:true, onComplete:()=>{ navigate('/');}});
+        tl.to('.section.technology',{autoAlpha:0, duration:1},0);
+        tl.play();
+       
     }
 
     const highlightNav = (index)=>{
