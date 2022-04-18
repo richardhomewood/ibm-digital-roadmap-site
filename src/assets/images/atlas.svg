@@ -22,8 +22,8 @@
       <rect id="dot-1-6-dot" x="313.57" y="256.37" width="3.71" height="3.71" transform="translate(-34.03 468.11) rotate(-70.29)"/>
     </g>
     <g id="year-1">
-      <rect x="393.3" y="171.44" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-1-text" transform="translate(408.23 191.23)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2022</text>
+      <rect x="394.69" y="172.44" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-1-text" transform="translate(406.83 192.23)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2022</text>
     </g>
   </g>
   <g id="circle-2">
@@ -35,8 +35,8 @@
     <rect id="dot-2-2" x="590.05" y="359.19" width="3.71" height="3.71" transform="translate(50.19 793.77) rotate(-70)"/>
     <rect id="dot-2-1" x="589.84" y="237.48" width="3.71" height="3.62" transform="translate(-46.16 216.8) rotate(-20)"/>
     <g id="year-2">
-      <rect x="393.3" y="113.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-2-text" transform="translate(408.23 133.5)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2023</text>
+      <rect x="394.69" y="112.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-2-text" transform="translate(406.83 132.5)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2023</text>
     </g>
   </g>
   <g id="circle-3">
@@ -48,8 +48,8 @@
     <rect id="dot-3-2" x="644.82" y="379.12" width="3.71" height="3.71" transform="translate(67.5 858.35) rotate(-70)"/>
     <rect id="dot-3-1" x="644.67" y="217.53" width="3.71" height="3.62" transform="translate(-36.03 234.35) rotate(-20)"/>
     <g id="year-3">
-      <rect x="393.3" y="55.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
-      <text id="year-3-text" transform="translate(408.23 75.5)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2024</text>
+      <rect x="394.69" y="54.72" width="62.69" height="27.19" rx="13.6" fill="#f4f4f4"/>
+      <text id="year-3-text" transform="translate(406.83 74.5)" font-size="16" font-family="IBMPlexSans, IBM Plex Sans">2024</text>
     </g>
   </g>
   <g id="labels">

@@ -60,17 +60,18 @@ function Atlas() {
         const id = e.currentTarget.id
         const _t = id.charAt(id.length-1)
         const tech = t("header.technologies",{returnObjects: true})[_t].value
-        const color = t("header.technologies",{returnObjects: true})[_t].color
+        //const color = t("header.technologies",{returnObjects: true})[_t].color
+        // const color = "#0F62FE";
         console.log("over",id, tech )
 
         // TODO Update to the color of the line based on last digit
-        gsap.to(e.currentTarget,{scale:2, fill:color})
+        gsap.to(e.currentTarget,{scale:2, duration:.2})
 
     }
 
     const labelOut=(e)=>{
         console.log("out", e.currentTarget.id)
-        gsap.to(e.currentTarget,{scale:1, fill:"#000000"})
+        gsap.to(e.currentTarget,{scale:1})
     }
 
     useEffect(() => {

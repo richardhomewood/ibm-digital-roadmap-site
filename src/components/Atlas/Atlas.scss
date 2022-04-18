@@ -24,9 +24,11 @@
 
         [id^="label"]{
             cursor: pointer;
-            // :hover {
-            //     text-decoration: underline;
-            // }
+            :hover {
+                text-decoration: underline;
+                //transform:scale(2);
+                fill:#0F62FE;
+            }
         }
     }
 
