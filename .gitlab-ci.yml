@@ -1,0 +1,20 @@
+default:
+  image: dokku/ci-docker-image
+
+stages:
+  - deploy
+
+variables:
+  GIT_DEPTH: 0
+
+deploy:
+  stage: deploy
+  resource_group: ibm-digital-roadmap-site
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "develop" || $CI_COMMIT_BRANCH == "release"'
+  variables:
+    GIT_REMOTE_URL: ssh://dokku@dokku.na.akqa.net:22/ibm-digital-roadmap-site-$CI_COMMIT_BRANCH
+  script: 
+    - dokku-deploy
+  after_script: 
+    - dokku-unlock
