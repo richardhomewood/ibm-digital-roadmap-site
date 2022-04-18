@@ -65,7 +65,7 @@ function Atlas() {
         console.log("over",id, tech )
 
         // TODO Update to the color of the line based on last digit
-        gsap.to(e.currentTarget,{scale:2, duration:.2})
+        gsap.to(e.currentTarget,{scale:2, duration:.5, ease:"back.out"})
 
     }
 
