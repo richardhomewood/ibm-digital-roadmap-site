@@ -52,6 +52,15 @@
             width:14rem;
 
             #navigation{
+
+                &.bx--list-box--expanded {
+                    .bx--list-box__menu{
+                        border-left: 1px solid #ADA8A8;
+                        border-right: 1px solid #ADA8A8;
+                        border-bottom: 1px solid #ADA8A8;
+                    }
+                }
+
                 .bx--list-box__label{
                     color:transparent;
                 }
@@ -59,20 +68,29 @@
                     background-color: white;
                     color:black;
                     max-height:50vh;
+                    box-shadow:none;
+                    margin-top:4px;
                 }
+
                 .bx--list-box__menu-item{
                     color:black;
                     
                 }
+
+                
                 .bx--list-box__menu-item__option{
                     color:black;
                     border-top:1px solid #CCCCCD;
+                    box-sizing:content-box;
                 }
+
+
                 .bx--list-box__menu-item:first-of-type .bx--list-box__menu-item__option {
                     border-top-color: transparent;
                 }
                 .bx--list-box__menu-item--active .bx--list-box__menu-item__option,  .bx--list-box__menu-item--highlighted .bx--list-box__menu-item__option, .bx--list-box__menu-item--active:hover .bx--list-box__menu-item__option {
                     color:white;
+                    border:none;
                 }
                 
                 background-color: white;

@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 import { Button, Dropdown, HeaderContainer, HeaderName } from  '@carbon/ibm-security';
-import { ButtonSet, Heading } from '@carbon/react';
+import { ButtonSet, Heading, Theme } from '@carbon/react';
 import IBMLogoBlack from '../../assets/images/ibm-logo-black.svg'
 import { useNavigate } from 'react-router-dom';
 
@@ -39,16 +39,16 @@ function Header() {
              <div className='divider'></div>
              <HeaderName href="../" prefix="" className='title'>{t('header.title')}</HeaderName>
              <div className='right'>
-                <Dropdown
-                    ariaLabel="Navigation Dropdown"
-                    id="navigation"
-                    items={items}
-                    label=""
-                    // titleText="Dropdown title"
-                    className="navigation"
-                    light={true}
-                    onChange={navigationChanged}
-                />
+                 <Theme theme="white">
+                    <Dropdown
+                        ariaLabel="Navigation Dropdown"
+                        id="navigation"
+                        items={items}
+                        label=""
+                        className="navigation"
+                        onChange={navigationChanged}
+                    />
+                </Theme>
              </div>
         </div>
     )
